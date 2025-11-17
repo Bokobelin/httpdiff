@@ -2,6 +2,7 @@
 name = "httpdiff"
 version = "0.1.0"
 edition = "2024"
+description = "A tool for comparing the differences between 2 HTTP GET requests"
 
 [dependencies]
 reqwest = { version = "0.12.24", features = ["blocking"]}
